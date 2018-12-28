@@ -6,26 +6,6 @@ import {
 
 class Header extends Component {
 
-  sidebarToggle(e) {
-    e.preventDefault();
-    document.body.classList.toggle('sidebar-hidden');
-  }
-
-  sidebarMinimize(e) {
-    e.preventDefault();
-    document.body.classList.toggle('sidebar-minimized');
-  }
-
-  mobileSidebarToggle(e) {
-    e.preventDefault();
-    document.body.classList.toggle('sidebar-mobile-show');
-  }
-
-  asideToggle(e) {
-    e.preventDefault();
-    document.body.classList.toggle('aside-menu-hidden');
-  }
-
   render() {
     return (
       <header className="app-header navbar">
@@ -34,7 +14,6 @@ class Header extends Component {
             <h5 className="navbar-brand-full">Device Verification Subsystem</h5>
         </NavbarBrand>
         <Nav className="ml-auto" navbar>
-          {/*<HeaderLanguageDropdown {...this.props} switchLanguage={this.props.switchLanguage} />*/}
         </Nav>
       </header>
     );

@@ -48,7 +48,6 @@ $navbar-border: (
 )  !default;
 $navbar-brand-width:                  155px !default;
 $navbar-brand-bg:                     transparent !default;
-$navbar-brand-logo:                   url('../img/logo.png') !default;
 $navbar-brand-logo-size:              70px auto !default;
 $navbar-brand-border: (
         bottom: (
@@ -60,7 +59,6 @@ $navbar-brand-border: (
 
 $navbar-brand-minimized-width:        50px !default;
 $navbar-brand-minimized-bg:           $navbar-brand-bg !default;
-$navbar-brand-minimized-logo:         url('../img/logo-symbol.png') !default;
 $navbar-brand-minimized-logo-size:    24px !default;
 $navbar-brand-minimized-border:       $navbar-brand-border !default;
 
