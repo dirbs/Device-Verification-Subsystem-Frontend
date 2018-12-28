@@ -28,22 +28,22 @@ NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS 
 [DVS-Authority-Mobile-App-User-Guide-1.0.0.pdf](https://github.com/dirbs/Documentation/blob/master/Device-Verification-Subsystem/DVS-Authority-Mobile-App-User-Guide-1.0.0.pdf)<br />
 [DVS -Public-Mobile- App-User-Guide-1.0.0.pdf](https://github.com/dirbs/Documentation/blob/master/Device-Verification-Subsystem/DVS%20-Public-Mobile-%20App-User-Guide-1.0.0.pdf)<br />
 
-#### Frontend Application Repo
+## DVS-Public Front-end
+
+### Frontend Application Repo
 
 [Device-Verification-Subsystem-Authority-Frontend](https://github.com/dirbs/Device-Verification-Subsystem-Authority-Frontend)<br />
 
-#### Backend Application Repo
+### Backend Application Repo
 
 [Device-Verification-Subsystem](https://github.com/dirbs/Device-Verification-Subsystem)<br />
 
-#### Mobile Application Repos
+### Mobile Application Repos
 
 [Device-Verification-Subsystem-Authority-Android](https://github.com/dirbs/Device-Verification-Subsystem-Authority-Android)<br />
 [Device-Verification-Subsystem-Public-Android](https://github.com/dirbs/Device-Verification-Subsystem-Public-Android)<br />
 [Device-Verification-Subsystem-Authority-iOS](https://github.com/dirbs/Device-Verification-Subsystem-Authority-iOS)<br />
 [Device-Verification-Subsystem-Public-iOS](https://github.com/dirbs/Device-Verification-Subsystem-Public-iOS)<br />
-
-## DVS-Public Front-end
 
 ### Prerequisites
 ```
@@ -63,18 +63,18 @@ Edge 41.16299
 
 ### Setup
 
-##### To Install this code on your local system
+#### To Install this code on your local system
 ```
 cd /path/to/install/location
 git clone https://github.com/dirbs/Device-Verification-Subsystem-Frontend.git
 ```
 
-##### Install dependencies
+#### Install dependencies
 ```
 npm install
 ```
 
-##### Google Recaptcha and API Configurations
+#### Google Recaptcha and API Configurations
 ```
 cd src/settings.json
 ```
@@ -93,12 +93,12 @@ cd src/settings.json
 
 **Note:** For Google reCaptcha configuration . _Refer to Google reCAPTCHA documentation._
 
-##### Serve with hot reload (watch changes instantly) at localhost:3000
+#### Serve with hot reload (watch changes instantly) at localhost:3000
 ```
 npm start
 ```
 
-##### Build for production with minification
+#### Build for production with minification
 ```
 npm run build
 ```
