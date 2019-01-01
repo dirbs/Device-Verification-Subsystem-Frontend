@@ -24,13 +24,24 @@
     "reaptcha": "^1.4.0"
   },
   "devDependencies": {
-    "node-sass": "^4.10.0"
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "node-sass": "^4.10.0",
+    "sinon": "^7.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!/node_modules/",
+      "!src/i18n.js",
+      "!src/index.js"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"

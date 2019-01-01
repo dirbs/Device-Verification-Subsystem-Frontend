@@ -9,26 +9,16 @@ import { translate } from 'react-i18next';
 import CheckStatus from "../../views/CheckStatus/CheckStatus";
 
 class Full extends Component {
-  
-  constructor(props) {
-    super(props);
-    this.changeLanguage = this.changeLanguage.bind(this);
-  }
 
-  changeLanguage(lng) {
-    const { i18n } = this.props;
-    i18n.changeLanguage(lng);
-  }
   render() {
     return (
       <div className="app">
-        <Header {...this.props} switchLanguage={this.changeLanguage} />
+        <Header {...this.props} />
         <div className="app-body">
           <main className="main">
             <Container fluid>
               <Switch>
-                <Route path="/checkimei" name="CheckImei"  component={CheckStatus} />
-                <Redirect from="/" to="/checkimei"/>
+                <Route path="/checkimei" name="CheckImei"  component={CheckStatus} />                <Redirect from="/" to="/checkimei"/>
               </Switch>
             </Container>
           </main>
