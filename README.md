@@ -87,6 +87,9 @@ cd src/settings.json
   },
   "googleRecaptcha": {
     "secretKey": "SECRET_KEY"
+  },
+  "appDetails":{
+    "defaultLanguage": "es" // supported languages are en, es and id
   }
 }
 ```
