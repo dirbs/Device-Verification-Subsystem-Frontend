@@ -10,7 +10,10 @@
 */
 import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
- 
+
+import settings from './settings'
+
+const { defaultLanguage } = settings.appDetails;
 i18n
   .use(LanguageDetector)
   .init({
@@ -31,7 +34,14 @@ i18n
             "deviceStatusTable.reason": "Reason for non-Compliance",
             "deviceStatusTable.link": "Link to Mitigation Help Content",
             "deviceStatusTable.date": "Block as of Date",
-            "submit" : "Submit"
+            "submit" : "Submit",
+            "button.ok": "Ok",
+            "error": "Error",
+            "serverNotResponding": "Server Not Responding",
+            "sessionExpired":"Session Expired",
+            "credentialMatch": "Credential Match",
+            "wrongHttp" : "Wrong Http",
+
         }
       },
       es: {
@@ -49,7 +59,13 @@ i18n
             "deviceStatusTable.reason": "Motivo de incumplimiento",
             "deviceStatusTable.link": "Enlace al contenido de ayuda de mitigación",
             "deviceStatusTable.date": "Bloquear a partir de la fecha",
-            "submit" : "Enviar"
+            "submit" : "Enviar",
+            "button.ok": "De acuerdo",
+            "error": "Error",
+            "serverNotResponding": "Servidor no responde",
+            "sessionExpired":"Sesión expirada",
+            "credentialMatch": "Coincidencia de credenciales",
+            "wrongHttp" : "HTTP incorrecto",
         }
       },
       id: {
@@ -67,7 +83,13 @@ i18n
             "deviceStatusTable.reason": "Alasan ketidaksesuaian",
             "deviceStatusTable.link": "Tautan ke Konten Bantuan Mitigasi",
             "deviceStatusTable.date": "Blokir Tanggal",
-            "submit" : "Menyerahkan"
+            "submit" : "Menyerahkan",
+            "button.ok": "Baik",
+            "error": "Kesalahan",
+            "serverNotResponding": "Server Tidak Menanggapi",
+            "sessionExpired":"Sesi berakhir",
+            "credentialMatch": "Pencocokan Kredensial",
+            "wrongHttp" : "Http salah",
         }
       }
     },
@@ -89,5 +111,6 @@ i18n
       wait: true
     }
   });
- 
+
+i18n.changeLanguage(defaultLanguage);
 export default i18n;
