@@ -93,7 +93,7 @@ cd src/settings.json
   }
 }
 ```
-
+**Note:** Copy settings_template.json and make a new file as settings.json into cd src and replace with settings._
 **Note:** For Google reCaptcha configuration . _Refer to Google reCAPTCHA documentation._
 
 #### Serve with hot reload (watch changes instantly) at localhost:3000
