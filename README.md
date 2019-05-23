@@ -75,25 +75,9 @@ npm install
 ```
 
 #### Google Recaptcha and API Configurations
-```
-cd src/settings-template.json
-```
-```
-{
-  "api": {
-    "host": "http://SERVER_IP", // Configure API Host e.g. http://www.api-example.com
-    "port": "PORT_NUMBER", // Configure API Port e.g. 3000
-    "version": "VERSION_OR_SUBPATH" // Configure API Version e.g. /api/v1/
-  },
-  "googleRecaptcha": {
-    "secretKey": "SECRET_KEY"
-  },
-  "appDetails":{
-    "defaultLanguage": "es" // supported languages are en, es and id
-  }
-}
-```
-**Note:** Copy settings_template.json and make a new file as settings.json into cd src and replace with settings._
+**Note:** Make a copy of  settings_template.json and rename it as settings.json. Update URLs
+into the file.
+
 **Note:** For Google reCaptcha configuration . _Refer to Google reCAPTCHA documentation._
 
 #### Serve with hot reload (watch changes instantly) at localhost:3000
