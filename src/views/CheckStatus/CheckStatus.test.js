@@ -440,7 +440,7 @@ describe("Google Recaptcha", () => {
     const script = document.scripts[0];
     expect(script.async).toBe(true);
     expect(script.defer).toBe(true);
-    expect(script.src).toEqual('https://recaptcha.net/recaptcha/api.js?render=explicit');
+    expect(script.src).toEqual('https://recaptcha.net/recaptcha/api.js?render=explicit&hl=en');
   })
 })
 
