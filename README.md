@@ -79,7 +79,7 @@ npm install
 cp src/settings-template.json src/settings.json
 ```
 
-**Note:** Update all the URLs into the file.
+**Note:** Update all the configs into the file.
 
 **Note:** For Google reCaptcha configuration . _Refer to Google reCAPTCHA documentation._
 
