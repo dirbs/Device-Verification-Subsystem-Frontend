@@ -30,6 +30,7 @@ import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import BoxLoader from '../../components/BoxLoader/BoxLoader'
 import Reaptcha from 'reaptcha';
+import i18n from '../../i18n'
 
 const renderInput = ({
                        field, // { name, value, onChange, onBlur }
@@ -90,7 +91,9 @@ class CheckStatusForm extends Component {
                 {!loading &&
                 <div className="g-recaptcha">
                   <Reaptcha ref={e => (this.captcha = e)} render="explicit" sitekey={GOOGLE_RECAPTCHA_KEY}
-                            onVerify={this.handleVerify}/>
+                            onVerify={this.handleVerify}
+                            hl={i18n.language}
+                  />
                 </div>
                 }
               </div>
