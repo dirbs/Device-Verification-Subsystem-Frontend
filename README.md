@@ -75,8 +75,11 @@ npm install
 ```
 
 #### Google Recaptcha and API Configurations
-**Note:** Make a copy of  settings_template.json and rename it as settings.json. Update URLs
-into the file.
++```
+cp src/settings-template.json src/settings.json
+```
+
+**Note:** Update all the URLs into the file.
 
 **Note:** For Google reCaptcha configuration . _Refer to Google reCAPTCHA documentation._
 
