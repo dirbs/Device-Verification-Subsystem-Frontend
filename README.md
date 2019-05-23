@@ -76,7 +76,7 @@ npm install
 
 #### Google Recaptcha and API Configurations
 ```
-cd src/settings.json
+cd src/settings-template.json
 ```
 ```
 {
