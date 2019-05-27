@@ -2,6 +2,7 @@
   "name": "dvs-public",
   "version": "1.0.0",
   "private": true,
+  "homepage": "http://www.example.com/dvs",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
