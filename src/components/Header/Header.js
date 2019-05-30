@@ -3,6 +3,7 @@ import {
   Nav,
   NavbarBrand,
 } from 'reactstrap';
+import i18n from '../../i18n';
 
 class Header extends Component {
 
@@ -11,7 +12,7 @@ class Header extends Component {
       <header className="app-header navbar">
         <NavbarBrand href="#">
             <h5 className="navbar-brand-minimized">DVS</h5>
-            <h5 className="navbar-brand-full">Device Verification Subsystem</h5>
+            <h5 className="navbar-brand-full">{i18n.t("deviceVerificationSystem")}</h5>
         </NavbarBrand>
         <Nav className="ml-auto" navbar>
         </Nav>
