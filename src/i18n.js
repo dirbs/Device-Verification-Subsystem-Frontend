@@ -21,7 +21,7 @@ i18n
     resources: {
       en: {
         translations: {
-            "deviceVerificationSystem": "Device Verification System",
+            "deviceVerificationSystem": "Device Verification Subsystem",
             "welcomeApp": "Welcome to LSMS",
             "homeLink"  : "Home",
             "dashboardLink": "Dashboard",
@@ -49,8 +49,8 @@ i18n
             "Version": "Version",
 
             //errors
-            "errors.FeildReq": " This field is required",
-            "errors.Imie": "IMEI must contain 14 to 16 characters and contains a combination of [0-9], [a-f] and [A-F]. ",
+            "errors.fieldReq": " This field is required",
+            "errors.imei": "IMEI must contain 14 to 16 characters and contains a combination of [0-9], [a-f] and [A-F]. ",
         }
       },
       es: {
@@ -83,8 +83,8 @@ i18n
             "Version": "Versión",
 
             //errors
-            "errors.FeildReq": "Esta seccion es necesaria",
-            "errors.Imie": "IMEI debe contener de 14 a 16 caracteres y contiene una combinación de [0-9], [a-f] y [A-F].",
+            "errors.fieldReq": "Esta seccion es necesaria",
+            "errors.imei": "IMEI debe contener de 14 a 16 caracteres y contiene una combinación de [0-9], [a-f] y [A-F].",
         }
       },
       id: {
@@ -117,8 +117,8 @@ i18n
             "Version": "Versi",
 
             //errors
-            "errors.FeildReq": "Bagian ini diperlukan",
-            "errors.Imie": "IMEI harus mengandung 14 hingga 16 karakter dan mengandung kombinasi [0-9], [a-f] dan [A-F].",
+            "errors.fieldReq": "Bagian ini diperlukan",
+            "errors.imei": "IMEI harus mengandung 14 hingga 16 karakter dan mengandung kombinasi [0-9], [a-f] dan [A-F].",
 
         }
       }
