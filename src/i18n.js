@@ -21,6 +21,7 @@ i18n
     resources: {
       en: {
         translations: {
+            "deviceVerificationSystem": "Device Verification Subsystem",
             "welcomeApp": "Welcome to LSMS",
             "homeLink"  : "Home",
             "dashboardLink": "Dashboard",
@@ -42,10 +43,19 @@ i18n
             "credentialMatch": "Credential Match",
             "wrongHttp" : "Wrong Http",
 
+            //Copyright
+            "copyright": "Copyright",
+            "allRightsReserved": "All Rights Reserved",
+            "Version": "Version",
+
+            //errors
+            "errors.fieldReq": " This field is required",
+            "errors.imei": "IMEI must contain 14 to 16 characters and contains a combination of [0-9], [a-f] and [A-F]. ",
         }
       },
       es: {
         translations: {
+            "deviceVerificationSystem": "Subsistema De Verificación De Dispositivos",
             "welcomeApp": "Bienvenido a LSMS",
             "homeLink"  : "Casa",
             "dashboardLink": "Tablero",
@@ -66,10 +76,20 @@ i18n
             "sessionExpired":"Sesión expirada",
             "credentialMatch": "Coincidencia de credenciales",
             "wrongHttp" : "HTTP incorrecto",
+
+            //Copyright
+            "copyright": "Derechos",
+            "allRightsReserved": "Todos Los Derechos Reservados",
+            "Version": "Versión",
+
+            //errors
+            "errors.fieldReq": "Esta seccion es necesaria",
+            "errors.imei": "IMEI debe contener de 14 a 16 caracteres y contiene una combinación de [0-9], [a-f] y [A-F].",
         }
       },
       id: {
         translations: {
+            "deviceVerificationSystem": "Subsistem Verifikasi Perangkat",
             "welcomeApp": "Selamat datang di LSMS",
             "homeLink"  : "Rumah",
             "dashboardLink": "Dasbor",
@@ -90,6 +110,16 @@ i18n
             "sessionExpired":"Sesi berakhir",
             "credentialMatch": "Pencocokan Kredensial",
             "wrongHttp" : "Http salah",
+
+            //Copyright
+            "copyright": "Hak Cipta",
+            "allRightsReserved": "Seluruh Hak Cipta",
+            "Version": "Versi",
+
+            //errors
+            "errors.fieldReq": "Bagian ini diperlukan",
+            "errors.imei": "IMEI harus mengandung 14 hingga 16 karakter dan mengandung kombinasi [0-9], [a-f] dan [A-F].",
+
         }
       }
     },

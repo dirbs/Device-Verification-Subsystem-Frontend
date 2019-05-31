@@ -121,9 +121,9 @@ const MyEnhancedForm = withFormik({
     let errors = {};
     // IMEIs Validation
     if(!values.imei){
-      errors.imei = 'This field is Required'
+      errors.imei = i18n.t('errors.fieldReq')
     } else if(!/^(?=.[A-F]*)(?=.[0-9]*)[A-F0-9]{14,16}$/.test(values.imei)) {
-      errors.imei = 'IMEI must contain 14 to 16 characters and contains a combination of [0-9] and [A-F]'
+      errors.imei = i18n.t("errors.imei")
     }
     return errors;
   },
