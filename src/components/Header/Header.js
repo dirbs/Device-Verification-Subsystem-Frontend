@@ -1,4 +1,4 @@
-/* /* SPDX-License-Identifier: BSD-4-Clause-Clear
+ /* SPDX-License-Identifier: BSD-4-Clause-Clear
 Copyright (c) 2018-2019 Qualcomm Technologies, Inc.
 All rights reserved.
 Redistribution and use in source and binary forms, with or without
@@ -49,7 +49,7 @@ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
 OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */ */
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
 import React, {Component} from 'react';
 import {
@@ -57,6 +57,7 @@ import {
   NavbarBrand,
 } from 'reactstrap';
 import i18n from '../../i18n';
+import HeaderLanguage from './HeaderLanguage';
 
 class Header extends Component {
 
@@ -68,6 +69,7 @@ class Header extends Component {
             <h5 className="navbar-brand-full">{i18n.t("deviceVerificationSystem")}</h5>
         </NavbarBrand>
         <Nav className="ml-auto" navbar>
+        <HeaderLanguage />
         </Nav>
       </header>
     );
