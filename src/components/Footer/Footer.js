@@ -58,7 +58,7 @@ class Footer extends Component {
     return (
     <footer className="app-footer">
         <div>&copy; {i18n.t('copyright')} 2018 <span>DIRBS</span>. {i18n.t('allRightsReserved')}.</div>
-        <div><b>{i18n.t('Version')}: </b>1.0.0</div>
+        <div><b>{i18n.t('Version')}: </b>2.0.0</div>
     </footer>
     )
   }
