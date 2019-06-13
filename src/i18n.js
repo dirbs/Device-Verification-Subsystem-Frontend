@@ -90,6 +90,7 @@ i18n
             "copyright": "Copyright",
             "allRightsReserved": "All Rights Reserved",
             "Version": "Version",
+            "language": "Language",
 
             //errors
             "errors.fieldReq": " This field is required",
@@ -124,6 +125,7 @@ i18n
             "copyright": "Derechos",
             "allRightsReserved": "Todos Los Derechos Reservados",
             "Version": "Versión",
+            "language": "Idioma",
 
             //errors
             "errors.fieldReq": "Esta seccion es necesaria",
@@ -158,6 +160,7 @@ i18n
             "copyright": "Hak Cipta",
             "allRightsReserved": "Seluruh Hak Cipta",
             "Version": "Versi",
+            "language": "Bahasa",
 
             //errors
             "errors.fieldReq": "Bagian ini diperlukan",
