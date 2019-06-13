@@ -26,13 +26,13 @@ import './scss/core/_dropdown-menu-right.scss'
 // import '../scss/_custom.scss'
 
 // Containers
-import Full from './containers/Full/'
+import Loader from './Loader';
 
 ReactDOM.render((
   <I18nextProvider i18n={ i18n }>
 	  <HashRouter>
 	    <Switch>
-	      <Route path="/" name="Home" component={Full}/>
+	      <Route path="/" component={Loader}/>
 	    </Switch>
 	  </HashRouter>
   </I18nextProvider>
