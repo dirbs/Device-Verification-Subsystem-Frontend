@@ -112,11 +112,29 @@ npm install
 ```
 
 #### Google Recaptcha and API Configurations
-+```
+
+**Note** For Windows users manually make a copy of settings-template.json in src directory and name it settings.json.
+```
 cp src/settings-template.json src/settings.json
 ```
 
-**Note:** Update all the configs into the file.
+#### Update all the configs into the file.
+
+```
+{
+  "api": {
+    "host": "http://192.168.100.58", // Configure API Host e.g. http://www.api-example.com
+    "port": "8080", // Configure API Port e.g. 3000
+    "version": "/apiman-gateway/DIRBS/dvs-public/1.0" // Configure API Version e.g. /api/v1/
+  },
+  "googleRecaptcha": {
+    "secretKey": "6Ldwv5sUAAAAAOpJ9M947jCnpxK93A2i3puMUKeQ" 
+  },
+  "appDetails":{
+    "defaultLanguage": "es" // Configure default language of the application
+  }
+}
+```
 
 **Note:** For Google reCaptcha configuration . _Refer to Google reCAPTCHA documentation._
 
