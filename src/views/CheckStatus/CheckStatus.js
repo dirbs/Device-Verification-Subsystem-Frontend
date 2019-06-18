@@ -154,7 +154,7 @@ const MyEnhancedForm = withFormik({
     // IMEIs Validation
     if(!values.imei){
       errors.imei = i18n.t('errors.fieldReq')
-    } else if(!/^(?=.[A-F]*)(?=.[0-9]*)[A-F0-9]{14,16}$/.test(values.imei)) {
+    } else if(!/^(?=.[A-F]*)(?=.[0-9]*)[A-Fa-f0-9]{14,16}$/.test(values.imei)) {
       errors.imei = i18n.t("errors.imei")
     }
     return errors;

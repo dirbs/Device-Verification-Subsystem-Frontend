@@ -747,7 +747,7 @@ initialize {
                       "name": "b",
                       "namespace": "http://www.w3.org/1999/xhtml",
                       "next": Object {
-                        "data": "1.0.0",
+                        "data": "2.0.0",
                         "next": null,
                         "parent": [Circular],
                         "prev": [Circular],
@@ -760,7 +760,7 @@ initialize {
                       "x-attribsPrefix": Object {},
                     },
                     Object {
-                      "data": "1.0.0",
+                      "data": "2.0.0",
                       "next": null,
                       "parent": [Circular],
                       "prev": Object {
@@ -818,7 +818,7 @@ initialize {
                     "name": "b",
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": Object {
-                      "data": "1.0.0",
+                      "data": "2.0.0",
                       "next": null,
                       "parent": [Circular],
                       "prev": [Circular],
@@ -831,7 +831,7 @@ initialize {
                     "x-attribsPrefix": Object {},
                   },
                   Object {
-                    "data": "1.0.0",
+                    "data": "2.0.0",
                     "next": null,
                     "parent": [Circular],
                     "prev": Object {
@@ -1177,7 +1177,7 @@ initialize {
                     "name": "b",
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": Object {
-                      "data": "1.0.0",
+                      "data": "2.0.0",
                       "next": null,
                       "parent": [Circular],
                       "prev": [Circular],
@@ -1190,7 +1190,7 @@ initialize {
                     "x-attribsPrefix": Object {},
                   },
                   Object {
-                    "data": "1.0.0",
+                    "data": "2.0.0",
                     "next": null,
                     "parent": [Circular],
                     "prev": Object {
@@ -1248,7 +1248,7 @@ initialize {
                   "name": "b",
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
-                    "data": "1.0.0",
+                    "data": "2.0.0",
                     "next": null,
                     "parent": [Circular],
                     "prev": [Circular],
@@ -1261,7 +1261,7 @@ initialize {
                   "x-attribsPrefix": Object {},
                 },
                 Object {
-                  "data": "1.0.0",
+                  "data": "2.0.0",
                   "next": null,
                   "parent": [Circular],
                   "prev": Object {
@@ -2034,7 +2034,7 @@ initialize {
                   "name": "b",
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
-                    "data": "1.0.0",
+                    "data": "2.0.0",
                     "next": null,
                     "parent": [Circular],
                     "prev": [Circular],
@@ -2047,7 +2047,7 @@ initialize {
                   "x-attribsPrefix": Object {},
                 },
                 Object {
-                  "data": "1.0.0",
+                  "data": "2.0.0",
                   "next": null,
                   "parent": [Circular],
                   "prev": Object {
@@ -2105,7 +2105,7 @@ initialize {
                 "name": "b",
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
-                  "data": "1.0.0",
+                  "data": "2.0.0",
                   "next": null,
                   "parent": [Circular],
                   "prev": [Circular],
@@ -2118,7 +2118,7 @@ initialize {
                 "x-attribsPrefix": Object {},
               },
               Object {
-                "data": "1.0.0",
+                "data": "2.0.0",
                 "next": null,
                 "parent": [Circular],
                 "prev": Object {
