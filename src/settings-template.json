@@ -6,5 +6,8 @@
   },
   "googleRecaptcha": {
     "secretKey": "SECRET_KEY"
+  },
+  "appDetails":{
+    "defaultLanguage": "en"
   }
 }
